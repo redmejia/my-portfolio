@@ -1,0 +1,195 @@
+.background-img {
+    height: 40vh;
+    background-image: url("./public/bg.png");
+    background-size: cover;
+    background-position: top;
+}
+
+.about-me {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    /* text-align: center; */
+}
+
+.profile-pic {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    border: 10px solid #ACC6F3;
+}
+
+.text-larger {
+    color: #031629;
+    font-weight: bold;
+    font-size: 900;
+}
+
+.text-larger-light {
+    color: #031629;
+    font-weight: 700;
+    font-size: 700;
+}
+
+.text-small {
+    color: #ACC6F3;
+}
+
+.button-resume {
+    width: 150px;
+    height: 50px;
+    border-radius: 9%;
+    background-color: #ACC6F3;
+
+}
+
+.go-link {
+    height: 50px;
+    color: #0267FF;
+    text-decoration: none;
+    border-radius: 5%;
+    border: 1px solid #ACC6F3;
+    background-color: #ACC6F3;
+    font-weight: 500;
+}
+
+.skill-box {
+    margin-top: 70px;
+    height: 150px;
+    background-color: #031629;
+}
+
+.skill {
+    width: 90px;
+    height: 90px;
+    border-radius: 5%;
+    border: 1px solid #0267FF;
+}
+
+.skill-sm {
+    width: 40px;
+    height: 40px;
+    border-radius: 5%;
+    border: 1px solid #0267FF;
+}
+
+
+@media screen and (max-width: 100px) {
+    .skill {
+        width: 80px;
+        height: 85px;
+        border-radius: 5%;
+        border: 1px solid #0267FF;
+    }
+
+    .skill-box {
+        height: 110px;
+        background-color: #031629;
+        /* background-color: red; */
+    }
+
+}
+
+/* @media screen and (max-width: 680px) {
+    .skill {
+        width: 45px;
+        height: 45px;
+        border-radius: 5%;
+        border: 1px solid #0267FF;
+    }
+
+    .skill-box {
+        height: 160px;
+        background-color: red;
+    }
+
+    
+
+} */
+
+@media screen and (max-width: 780px) {
+    .skill {
+        width: 65px;
+        height: 65px;
+        border-radius: 5%;
+        border: 1px solid #0267FF;
+    }
+
+    .skill-box {
+        height: 110px;
+        background-color: #031629;
+        /* background-color: red; */
+    }
+
+
+
+}
+
+
+@media screen and (max-width: 500px) {
+    .skill {
+        width: 40px;
+        height: 40px;
+        margin: 2px;
+        border-radius: 5%;
+        border: 1px solid #0267FF;
+    }
+
+    .skill-box {
+        height: 90px;
+        background-color: #031629;
+    }
+
+}
+
+@media screen and (max-width: 400px) {
+    .skill {
+        width: 28px;
+        height: 28px;
+        margin: 2px;
+        border-radius: 5%;
+        border: 1px solid #0267FF;
+    }
+
+    .skill-box {
+        height: 90px;
+        background-color: #031629;
+    }
+
+}
+
+
+
+
+.box-tech {
+    width: 50px;
+    background-color: rebeccapurple;
+}
+
+.card-bg-color {
+    border-color: #E2F1FD;
+    background-color: #E2F1FD;
+}
+
+.project-bg-left {
+    height: 120vh;
+    background: rgb(23, 23, 64);
+    background: linear-gradient(35deg, rgba(23, 23, 64, 1) 0%, rgba(123, 165, 208, 1) 71%);
+}
+
+.project-bg-right {
+    height: 100vh;
+    background: rgb(23, 23, 64);
+    background: linear-gradient(234deg, rgba(23, 23, 64, 1) 0%, rgba(123, 165, 208, 1) 71%);
+}
+
+.text-color {
+    color: #0267FF;
+}
+
+.contact-footer{
+    margin-top: 70px;
+    height: 150px;
+    background-color: #031629;
+}
